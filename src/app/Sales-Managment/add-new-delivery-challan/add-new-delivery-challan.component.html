@@ -1,0 +1,147 @@
+<form>
+    <h2 class="text-center mt-3"> Delivery Challan</h2>
+
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button routerLink="/sales-managment/delivery-challan"  type="button" class=" btn btn-danger">Back</button>
+    </div>
+
+    <div class="container border border-dark bg-light mt-4 mb-3">
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <label for="inputEmail4" class="fw-bold"> Delivery challan ID :</label>
+          <input type="text" class="form-control border border-dark w-50">
+        </div>
+        <div class="col-md-4">
+          <label for="inputPassword4" class="fw-bold"> Delivery Challan Date :</label>
+          <input type="text" class="form-control border border-dark w-50">
+        </div>
+        <div class="col-md-4">
+          <label for="inputPassword4" class="fw-bold"> Invoice ID :</label>
+          <input type=" text" class="form-control border border-dark w-50" id="invoice id">
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <label for="inputEmail4" class="fw-bold"> Customer Name :</label>
+          <input type="text" class="form-control border border-dark w-75">
+        </div>
+        <div class="col-md-3">
+          <label for="exampleFormControlTextarea1" class="form-label fw-bold"> Billing Address :</label>
+          <textarea class="form-control border border-dark w-75" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+        <div class="col-md-3">
+          <label for="exampleFormControlTextarea1" class="form-label fw-bold"> Shipping Address :</label>
+          <textarea class="form-control border border-dark w-75" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mt-2" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shipping state
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Maharastra</a></li>
+              <li><a class="dropdown-item" href="#"> Goa </a></li>
+              <li><a class="dropdown-item" href="#"> Panjab </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div>
+        <label for="inputEmail4" class="fw-bold">G S TIN NO :</label>
+        <input type="text" class="form-control border border-dark w-25">
+        <label for="inputEmail4" class="fw-bold mt-2"> Place Of Supply :</label>
+        <input type="text" class="form-control border border-dark w-25">
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <label for="inputEmail4" class="fw-bold"> P.O.No :</label>
+          <input type="text" class="form-control border border-dark w-50">
+        </div>
+        <div class="col-md-3">
+          <label for="inputEmail4" class="fw-bold"> P.O.Date :</label>
+          <input type="text" class="form-control border border-dark w-50">
+        </div>
+        <div class="col-md-3">
+          <label for="inputEmail4" class="fw-bold"> challan No :</label>
+          <input type="text" class="form-control border border-dark w-50">
+        </div>
+        <div class="col-md-3">
+          <label for="inputEmail4" class="fw-bold"> Challan Date :</label>
+          <input type="text" class="form-control border border-dark w-50">
+        </div>
+      </div><br>
+      <div class="row justify-content-start ">
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mt-2" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Select Shop
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">...</a></li>
+  
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle mt-2" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Select Employee
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> Tushar </a></li>
+              <li><a class="dropdown-item" href="#"> Mahesh </a></li>
+              <li><a class="dropdown-item" href="#"> Nitin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div><br>
+  
+      <div class="container">
+        <table class="table table-bordered border-dark shadow-lg mt-5 mb-4">
+          <thead>
+            <tr>
+              <th class="bg-secondary"> </th>
+              <th class="bg-secondary"># </th>
+              <th class="bg-secondary">Itm Description</th>
+              <th class="bg-secondary">QTY</th>
+              <th class="bg-secondary">UOM</th>
+              <th class="bg-secondary">Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> </td>
+              <td> 1</td>
+              <td> </td>
+              <td></td>
+              <td> </td>
+              <td> </td>
+  
+            </tr>
+  
+          </tbody>
+        </table>
+      </div><br><br>
+      <hr>
+      <div class="row justify-content-end">
+        <div class="col-4">
+          <label class="fw-bold">Total Quantity : </label>
+          <input type="text" class="form-control border border-dark">
+        </div>
+      </div>
+  
+      <div class="row text-center  mt-5 mb-3">
+        <div class="col ">
+          <button class="btn btn-success mx-2 "> Save Delivery Challan </button>
+           
+        </div>
+      </div>
+    </div>
+  </form>
